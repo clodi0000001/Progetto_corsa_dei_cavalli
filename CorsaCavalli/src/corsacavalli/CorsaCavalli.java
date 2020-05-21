@@ -15,7 +15,7 @@ public class CorsaCavalli {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         boolean corretto = false;
         int numCavalli = 0;
         while (!corretto) {
@@ -45,9 +45,10 @@ public class CorsaCavalli {
       System.out.println("\n----- BANG! -----\n");
       Thread.sleep(300);// Solo per dare il tempo di leggere l’output
       bang.spara();
-    } catch (InterruptedException e) {
+       }catch (InterruptedException e) {
       e.printStackTrace();
-}
+       }
+
     }
     
 }

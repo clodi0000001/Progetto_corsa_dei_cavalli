@@ -3,8 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package corsacavalli;
-import java.util.*;
+package applicazione_prova;
+
 /**
  *
  * @author Sony
@@ -45,5 +45,4 @@ public class Cavallo implements Runnable{
    public String getNome() {
        return nome;
    } 
-
 }
